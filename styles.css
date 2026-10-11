@@ -1,4 +1,131 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+:root {
+  --navy: #212E59;
+  --navy-light: #34457A;
+  --orange: #F28C28;
+  --orange-dark: #D96F0B;
+  --cream: #F8F6F2;
+  --text: #252A34;
+  --muted: #667085;
 }
+
+/* Page */
+body {
+  background-color: var(--cream);
+  color: var(--text);
+  line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--navy) !important;
+}
+
+.navbar-title {
+  color: white !important;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--orange) !important;
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+  color: var(--navy);
+}
+
+h1 {
+  border-bottom: 4px solid var(--orange);
+  padding-bottom: 0.35rem;
+}
+
+/* Links */
+a {
+  color: var(--orange-dark);
+}
+
+a:hover {
+  color: var(--orange);
+}
+
+/* Blog listing title */
+.quarto-listing-default .listing-title {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.quarto-listing-default .listing-title:hover {
+  color: var(--orange-dark);
+}
+
+/* Blog/article title */
+.quarto-title .title {
+  color: var(--navy);
+}
+
+/* Tables */
+table {
+  background-color: white;
+}
+
+thead {
+  background-color: var(--navy);
+  color: white;
+}
+
+table th {
+  color: white;
+}
+
+/* Figure captions */
+figcaption {
+  color: var(--muted);
+}
+
+/* Optional highlighted message */
+.key-message {
+  border-left: 6px solid var(--orange);
+  background: white;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+}
+
+.quarto-title-banner {
+  background-color: #0B1F33 !important;
+}
+
+.quarto-title-banner h1,
+.quarto-title-banner .title {
+  color: #F8F6F2 !important;
+  border-bottom: 4px solid #F28C28;
+  padding-bottom: 0.35rem;
+  font-size: 1.3rem;
+  line-height: 1.2;
+  white-space: nowrap;
+  width: 130%;
+}
+
+/* Only change the appearance of the homepage post title */
+.listing-title,
+.listing-title a {
+  font-weight: 700 !important;
+  font-size: 1.65rem !important;
+  line-height: 1.2 !important;
+}
+
+/* Space between blog title and categories */
+.listing-categories {
+  margin-top: 0.7rem !important;
+}
+
+.listing-description {
+  line-height: 1.25 !important;
+}
+

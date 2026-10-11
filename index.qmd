@@ -1,5 +1,5 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Data is more than numbers — it is a way to understand people and the world around us."
 listing:
   contents: posts
   sort: "date desc"

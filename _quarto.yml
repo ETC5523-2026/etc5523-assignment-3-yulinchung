@@ -2,16 +2,21 @@ project:
   type: website
 
 website:
-  title: "blog-template"
+  title: "Yulin Chung | Data Journal"
   navbar:
+    background: "#212E59"
+    foreground: "#FFFFFF"
     right:
-      - about.qmd
+      - text: "About Me"
+        href: about.qmd
       - icon: github
-        href: https://github.com/etc5523-2022
+        href: https://github.com/yulinchung
+        aria-label: GitHub
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: true
 
 
 
