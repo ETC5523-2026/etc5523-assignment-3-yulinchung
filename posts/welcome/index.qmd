@@ -49,7 +49,7 @@ knitr::kable(table_data)
 
 To understand the results, it helps to first see how the study separated the weather conditions behind the Black Summer. @tbl-measures gives a quick overview of the three parts of the analysis.
 
-The study shows that a week as hot as the one experienced in December 2019 was at least **twice** as likely because of human-caused warming. Fire weather showed a similar pattern. Climate models estimated that conditions as severe as those seen in 2019–20 had become about **80%** more likely. Because the models tended to underestimate the observed rise in extreme heat and fire weather, the authors reported a more cautious conclusion: at least **30%** more likely. mes as likely** as they were in the early twentieth century. [@vanoldenborgh2021]
+The study shows that a week as hot as the one experienced in December 2019 was at least **twice** as likely because of human-caused warming. Fire weather showed a similar pattern. Climate models estimated that conditions as severe as those seen in 2019–20 had become about **80%** more likely. Because the models tended to underestimate the observed rise in extreme heat and fire weather, the authors reported a more cautious conclusion: at least **30%** more likely. mes as likely as they were in the early twentieth century. [@vanoldenborgh2021]
 
 The risk is also expected to keep rising. At 2°C of global warming, similar extreme fire-weather conditions could become at least **four times as likely** as they were in the early twentieth century. [@vanoldenborgh2021]
 

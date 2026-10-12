@@ -18,7 +18,7 @@ about:
 
     - icon: house
       text: Home
-      href: index.qmd
+      href: https://etc5523-2026.github.io/etc5523-assignment-3-yulinchung/
 
 ---
 
