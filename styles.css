@@ -41,11 +41,6 @@ h3 {
   color: var(--navy);
 }
 
-h1 {
-  border-bottom: 4px solid var(--orange);
-  padding-bottom: 0.35rem;
-}
-
 /* Links */
 a {
   color: var(--orange-dark);
@@ -55,19 +50,56 @@ a:hover {
   color: var(--orange);
 }
 
-/* Blog listing title */
-.quarto-listing-default .listing-title {
-  color: var(--navy);
-  font-weight: 700;
+/* Title banner shared styling */
+.quarto-title-banner {
+  background-color: #0B1F33 !important;
 }
 
-.quarto-listing-default .listing-title:hover {
-  color: var(--orange-dark);
+.quarto-title-banner h1,
+.quarto-title-banner .title {
+  color: var(--cream) !important;
+  border-bottom: 4px solid var(--orange);
+  padding-bottom: 0.35rem;
 }
 
-/* Blog/article title */
-.quarto-title .title {
-  color: var(--navy);
+/* Homepage slogan only */
+.home-page .quarto-title-banner h1,
+.home-page .quarto-title-banner .title {
+  font-size: 1.15rem !important;
+  line-height: 1.2 !important;
+  white-space: nowrap;
+}
+
+/* Blog article title only */
+.article-page .quarto-title-banner h1,
+.article-page .quarto-title-banner .title {
+  font-size: 2rem !important;
+  line-height: 1.15 !important;
+  white-space: normal;
+}
+
+/* Homepage blog listing title */
+.quarto-listing-default .listing-title,
+.quarto-listing-default .listing-title a {
+  color: var(--navy) !important;
+  font-weight: 700 !important;
+  font-size: 1.7rem !important;
+  line-height: 1.2 !important;
+}
+
+.quarto-listing-default .listing-title:hover,
+.quarto-listing-default .listing-title a:hover {
+  color: var(--orange-dark) !important;
+}
+
+/* Space between blog title and categories */
+.listing-categories {
+  margin-top: 0.7rem !important;
+}
+
+/* Homepage post description */
+.listing-description {
+  line-height: 1.25 !important;
 }
 
 /* Tables */
@@ -89,43 +121,10 @@ figcaption {
   color: var(--muted);
 }
 
-/* Optional highlighted message */
+/* Highlighted message */
 .key-message {
   border-left: 6px solid var(--orange);
   background: white;
   padding: 1rem 1.25rem;
   margin: 1.5rem 0;
 }
-
-.quarto-title-banner {
-  background-color: #0B1F33 !important;
-}
-
-.quarto-title-banner h1,
-.quarto-title-banner .title {
-  color: #F8F6F2 !important;
-  border-bottom: 4px solid #F28C28;
-  padding-bottom: 0.35rem;
-  font-size: 1.3rem;
-  line-height: 1.2;
-  white-space: nowrap;
-  width: 130%;
-}
-
-/* Only change the appearance of the homepage post title */
-.listing-title,
-.listing-title a {
-  font-weight: 700 !important;
-  font-size: 1.65rem !important;
-  line-height: 1.2 !important;
-}
-
-/* Space between blog title and categories */
-.listing-categories {
-  margin-top: 0.7rem !important;
-}
-
-.listing-description {
-  line-height: 1.25 !important;
-}
-
