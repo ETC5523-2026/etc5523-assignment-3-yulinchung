@@ -1,4 +1,7 @@
 # ETC5523 Blog Assessment
+* This is a **template** for the ETC5523 Blog Assessment provided by **Michael Lydeamore**.
+* The author of this blog is **Yu-Lin Chung**.
+* The URL for this blog is [https://etc5523-2026.github.io/etc5523-assignment-3-yulinchung/](https://etc5523-2026.github.io/etc5523-assignment-3-yulinchung/)
 
 ## Intended audience
 

@@ -1,6 +1,7 @@
 ---
-title: "Did Climate Change Make Australia’s Black Summer More Likely?"
+title: "Did Climate Change Make<br>Australia’s Black Summer More Likely?"
 description: "What the numbers reveal about heat, fire weather and Australia’s bushfire future."
+body-classes: article-page
 author: "YU-LIN CHUNG"
 date: "2026-10-12"
 categories:
@@ -17,11 +18,11 @@ So the obvious question is:
 
 **The answer is yes**. Using long-term temperature and rainfall observations, ERA5 weather data and 11 large climate-model ensembles, a 2021 study by van Oldenborgh et al. examined how human-caused climate change affected extreme heat, drought and fire-weather conditions during the Black Summer. The clearest evidence appeared in extreme heat and severe fire weather. [@vanoldenborgh2021]
 
-## How did climate change change the weather behind the fires?
+## How climate change shaped fire weather
 
 The clearest climate-change signal appeared in **extreme heat and fire weather**.
 
-The bigger problem of the Black Summer was that several weather conditions came together to create an environment in which fires could become much harder to control. One way scientists describe this is through **fire weather** — the combination of heat, rainfall, humidity and wind that affects how easily a fire can spread and how difficult it may be to suppress. [@vanoldenborgh2021]
+The bigger problem of the Black Summer was that several weather conditions came together to create an environment in which fires could become much harder to control. One way scientists describe this is through **fire weather** — the combination of heat, rainfall, humidity and wind that affects how easily a fire can spread and how difficult it may be to suppress.
 
 ```{r}
 #| label: tbl-measures
@@ -48,11 +49,9 @@ knitr::kable(table_data)
 
 To understand the results, it helps to first see how the study separated the weather conditions behind the Black Summer. @tbl-measures gives a quick overview of the three parts of the analysis.
 
-A week as hot as the one experienced in December 2019 was at least **twice** as likely because of human-caused warming. A comparable heatwave in the early twentieth century would also have been around **1–2°C cooler**.
+The study shows that a week as hot as the one experienced in December 2019 was at least **twice** as likely because of human-caused warming. Fire weather showed a similar pattern. Climate models estimated that conditions as severe as those seen in 2019–20 had become about **80%** more likely. Because the models tended to underestimate the observed rise in extreme heat and fire weather, the authors reported a more cautious conclusion: at least **30%** more likely. mes as likely** as they were in the early twentieth century. [@vanoldenborgh2021]
 
-Fire weather showed a similar pattern. Climate models estimated that conditions as severe as those seen in 2019–20 had become about **80%** more likely. Because the models tended to underestimate the observed rise in extreme heat and fire weather, the authors reported a more cautious conclusion: at least **30%** more likely.
-
-The risk is also expected to keep rising. At 2°C of global warming, similar extreme fire-weather conditions could become at least **four times as likely** as they were in the early twentieth century.
+The risk is also expected to keep rising. At 2°C of global warming, similar extreme fire-weather conditions could become at least **four times as likely** as they were in the early twentieth century. [@vanoldenborgh2021]
 
 As shown in @fig-fire-weather-risk, the likelihood of extreme fire-weather conditions rises sharply as the climate warms.
 
@@ -112,12 +111,12 @@ ggplot(fire_risk, aes(x = climate, y = likelihood, fill = climate)) +
 
 ## The drought result was less clear
 
-For the rainfall measures used in the analysis, there was no clear evidence that climate change had made the 2019 drought more likely.
+For the rainfall measures used in the analysis, there was no clear evidence that climate change had made the 2019 drought more likely. [@vanoldenborgh2021]
 
 That does not mean climate change had no effect on the Black Summer. It means the drought signal was harder to separate from natural climate variability. Additionally, Natural patterns such as the Indian Ocean Dipole (IOD) and Southern Annular Mode (SAM) also contributed to the unusually dry conditions in 2019.
 
-## So, did climate change make the Black Summer more likely?
+## What this means for future bushfire risk
 
-**Yes.** Human-caused climate change made the extreme heat and dangerous fire weather behind the Black Summer more likely, although the drought signal was much less clear. But the importance of this result goes beyond one fire season. At 2°C of global warming, similar extreme fire-weather conditions will happen in the future. [@vanoldenborgh2021]
+Human-caused climate change made the extreme heat and dangerous fire weather behind the Black Summer more likely, although the drought signal was much less clear. But the importance of this result goes beyond one fire season. At 2°C of global warming, similar extreme fire-weather conditions may happen in the future. [@vanoldenborgh2021]
 
 The Black Summer showed how quickly existing systems can be pushed to their limits. That means future bushfire planning cannot rely only on what Australia has experienced in the past. Understanding how climate change is shifting fire-weather risk can help inform **risk assessments, emergency preparedness, evacuation planning and land-use decisions**. The challenge now is to use that knowledge to prepare for a climate in which these conditions may no longer be so unusual.

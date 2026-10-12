@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Yulin Chung | Data Journal"
+  title: "Chung's Data Journal"
   navbar:
     background: "#212E59"
     foreground: "#FFFFFF"
