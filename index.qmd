@@ -1,5 +1,7 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Data is more than numbers — it is a way to understand people and the world around us."
+pagetitle: Chung's Data Journal
+body-classes: home-page
 listing:
   contents: posts
   sort: "date desc"
@@ -10,5 +12,3 @@ listing:
 page-layout: full
 title-block-banner: true
 ---
-
-

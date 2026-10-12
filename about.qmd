@@ -1,13 +1,29 @@
 ---
-title: "About"
-image: profile.jpg
+title: "YU-LIN CHUNG"
+image: profilepic.jpg
 about:
   template: jolla
   links:
+    - icon: envelope
+      text: Email
+      href: mailto:ychu0093@student.monash.edu
+
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
+      text: GitHub
+      href: https://github.com/yulinchung
+
+    - icon: facebook
+      text: Facebook
+      href: https://www.facebook.com/zhong.yu.lin.141311/
+
+    - icon: house
+      text: Home
+      href: https://etc5523-2026.github.io/etc5523-assignment-3-yulinchung/
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+I am currently pursuing a Master of Business in Data Analytics at Monash University. 
+
+I hold a bachelor’s degree in Language and Creative Writing from National Taipei University of Education and previously worked as a Social Marketing Specialist. My academic and professional background has led me to develop a strong interest in the intersection of creativity, communication, and data analysis. 
+
+In particular, I am interested in how analytical methods and algorithms can be used to better understand creative content and audience behaviour, and how these insights can support more effective and evidence-based approaches to social media marketing.
